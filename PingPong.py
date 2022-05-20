@@ -33,8 +33,8 @@ class Player(GameSprite):
 #переменные
 clock = time.Clock()
 FPS = 60
-speed_y = 3
-speed_x = 3
+speed_y = 5
+speed_x = 5
 win_height = 500
 font1 = font.SysFont('Arial', 30)
 lose1 = font1.render('Player 1 Defeat!', True, (100, 0, 0))
